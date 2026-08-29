@@ -17,7 +17,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fabrice — Développeur Full-Stack",
+  title: "Fabrice Andrianirina",
   description:
     "Portfolio de Fabrice, développeur Full-Stack junior. Applications web modernes, propres et maintenables.",
 };
