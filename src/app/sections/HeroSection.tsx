@@ -87,8 +87,10 @@ export function HeroSection() {
             </a>
             <a
               href="/cv.pdf"
-              download
-              className="group relative text-sm text-secondary transition-colors hover:text-text"
+              download="CV_Fabrice_ANDRIANIRINA.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-xl border border-slate-700 bg-slate-900/50 hover:bg-slate-800 transition-colors text-sm font-medium text-slate-200"
             >
               Télécharger mon CV
               <span className="absolute -bottom-1 left-0 h-px w-0 bg-accent transition-all duration-300 group-hover:w-full" />
@@ -109,36 +111,42 @@ export function HeroSection() {
               <span className="text-text">profile</span>{" "}
               <span className="text-secondary">=</span>{" "}
               <span className="text-secondary">{"{"}</span>
-              {"\n"}  <span className="text-accent-light">name</span>
+              {"\n"} <span className="text-accent-light">name</span>
               <span className="text-secondary">:</span>{" "}
-              <span className="text-success">&apos;Fabrice Andrianirina&apos;</span>
+              <span className="text-success">
+                &apos;Fabrice Andrianirina&apos;
+              </span>
               <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">role</span>
+              {"\n"} <span className="text-accent-light">role</span>
               <span className="text-secondary">:</span>{" "}
-              <span className="text-success">&apos;Full-Stack Software Developer&apos;</span>
+              <span className="text-success">
+                &apos;Full-Stack Software Developer&apos;
+              </span>
               <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">motto</span>
+              {"\n"} <span className="text-accent-light">motto</span>
               <span className="text-secondary">:</span>{" "}
-              <span className="text-success">&apos;Driven by curiosity. Built with precision.&apos;</span>
+              <span className="text-success">
+                &apos;Driven by curiosity. Built with precision.&apos;
+              </span>
               <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">hardWorker</span>
-              <span className="text-secondary">:</span>{" "}
-              <span className="text-accent">true</span>
-              <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">quickLearner</span>
-              <span className="text-secondary">:</span>{" "}
-              <span className="text-accent">true</span>
-              <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">problemSolver</span>
+              {"\n"} <span className="text-accent-light">hardWorker</span>
               <span className="text-secondary">:</span>{" "}
               <span className="text-accent">true</span>
               <span className="text-secondary">,</span>
-              {"\n"}  <span className="text-accent-light">hireable</span>
+              {"\n"} <span className="text-accent-light">quickLearner</span>
+              <span className="text-secondary">:</span>{" "}
+              <span className="text-accent">true</span>
+              <span className="text-secondary">,</span>
+              {"\n"} <span className="text-accent-light">problemSolver</span>
+              <span className="text-secondary">:</span>{" "}
+              <span className="text-accent">true</span>
+              <span className="text-secondary">,</span>
+              {"\n"} <span className="text-accent-light">hireable</span>
               <span className="text-secondary">:</span>{" "}
               <span className="text-accent">function</span>{" "}
               <span className="text-secondary">()</span>{" "}
               <span className="text-secondary">{"{"}</span>
-              {"\n"}    <span className="text-accent">return</span>{" "}
+              {"\n"} <span className="text-accent">return</span>{" "}
               <span className="text-accent">this</span>
               <span className="text-secondary">.</span>
               <span className="text-accent-light">hardWorker</span>{" "}
@@ -147,7 +155,7 @@ export function HeroSection() {
               <span className="text-secondary">.</span>
               <span className="text-accent-light">problemSolver</span>
               <span className="text-secondary">;</span>
-              {"\n"}  <span className="text-secondary">{"}"}</span>
+              {"\n"} <span className="text-secondary">{"}"}</span>
               {"\n"}
               <span className="text-secondary">{"}"};</span>
             </div>
