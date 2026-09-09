@@ -86,8 +86,8 @@ export function HeroSection() {
               <ArrowRight size={16} />
             </a>
             <a
-              href="/cv.pdf"
-              download="CV_Fabrice_ANDRIANIRINA.pdf"
+              href="/CV_Fabrice_ANDRIANIRINA.pdf"
+              download
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl border border-slate-700 bg-slate-900/50 hover:bg-slate-800 transition-colors text-sm font-medium text-slate-200"
