@@ -11,7 +11,7 @@ const education = [
     title: "Licence en Informatique",
     org: "École Nationale d'Informatique (ENI)",
     location: "Fianarantsoa, Madagascar",
-    date: "2024 — Présent",
+    date: "2024 - Présent",
     desc: "Formation en développement logiciel, conception d'applications, bases de données et architecture informatique.",
     active: true,
   },
@@ -26,7 +26,7 @@ const education = [
 ];
 
 const experience = {
-  title: "Certificat de participation — Dev Kilonga",
+  title: "Certificat de participation - Dev Kilonga",
   org: "CoderDojo Fianarantsoa",
   date: "Juin 2019",
   desc: "Participation au concours Dev Kilonga, une compétition de développement informatique destinée aux jeunes. Cette expérience représente mon premier contact concret avec la programmation.",
@@ -190,7 +190,7 @@ function TimelineCard({
       </span>
       <h3 className="mt-2 text-lg font-semibold text-text">{title}</h3>
       <p className="mt-1 text-sm text-secondary">
-        {org} — {location}
+        {org} - {location}
       </p>
       <p className="mt-3 text-sm leading-relaxed text-secondary/80">{desc}</p>
     </motion.div>
